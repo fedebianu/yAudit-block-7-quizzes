@@ -1,18 +1,20 @@
 # yAudit Fellowship · Block 7 quizzes
 
-Two Friday quizzes I set for the fellows of the yAudit Fellowship, Block 7.
+Two Friday quizzes I picked and set for the fellows of the yAudit Fellowship, Block 7.
 Each one is a contract to break: the answer is a working exploit.
 
-## Quiz 1: the bridge
+## Quiz 1: The bridge
 
 > A new bridge to another L2 has been deployed and someone just deposited a bunch of WETH...
 
-A simplified L1/L2 ERC20 bridge derived from Optimism's standard bridge, with special handling for WETH, and a bug I planted in it.
+A simplified L1/L2 ERC20 bridge derived from Optimism's standard bridge, with special handling for WETH.
 **Goal:** drain the WETH held by the L1 bridge.
+
+SafeBridge, a [Real World CTF 6th](https://github.com/iczc/rwctf-6th-safebridge) challenge (2024) by iczc, picked for this block.
 
 Code: [`src/friday-quiz-1`](src/friday-quiz-1)
 
-## Quiz 2: magic of solidity
+## Quiz 2: Magic of solidity
 
 > Are you a solidity magician? Prove it.
 
